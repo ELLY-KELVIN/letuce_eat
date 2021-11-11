@@ -1,0 +1,350 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgb(216, 213, 213);
+  font-family: "Roboto", sans-serif;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+header {
+  height: 85vh;
+  background-image: url("img/image2.png");
+  background-size: cover;
+  background-position: right;
+}
+
+.bar {
+  background-color: rgba(0, 0, 0, 0.45);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  font-weight: 500;
+  margin-left: 1rem;
+  color: #f19201;
+}
+
+nav {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-navigation {
+  height: 100%;
+  width: 70%;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-navigation a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: white;
+}
+
+.main-navigation a:hover,
+.main-navigation a:active,
+.main-navigation a:visited {
+  color: #f19201;
+}
+nav button {
+  padding: 1rem 1.5rem;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  background-color: #f19201;
+  color: white;
+  cursor: pointer;
+}
+.hero {
+  margin: 10rem 0 3rem 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.7rem;
+}
+
+.hero h1 span {
+  display: block;
+  line-height: 1.6;
+}
+
+.hero button {
+  width: 10rem;
+  padding: 1rem 1.25rem;
+  margin-top: 6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  background-color: #f19201;
+  border: none;
+  cursor: pointer;
+}
+
+
+.serv {
+  padding: 2.5rem 0;
+  text-align: center;
+}
+
+.services h2 {
+  color: #f19201;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.services p {
+  font-style: italic;
+}
+
+.middle span {
+  display: block;
+  line-height: 1.6;
+}
+
+.servi {
+  width: 75%;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.servi article {
+  width: 32%;
+  padding: 1.5rem 1.2rem;
+  background-color: white;
+}
+
+.servi div:first-child {
+  width: 3rem;
+  height: 3rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f19201;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 500;
+  border-radius: 50%;
+}
+
+.servi article h3 {
+  margin: 1.5rem 0;
+  font-weight: 500;
+}
+
+.servi article p {
+  margin-bottom: 2.5rem;
+}
+
+.servi article span {
+  display: block;
+}
+
+.reviews {
+  background-color: black;
+  display: flex;
+}
+
+.reviews-img {
+  width: 50%;
+}
+
+.reviews-info {
+  width: 50%;
+  text-align: center;
+  color: white;
+}
+
+.reviews-info h2 {
+  margin-top: 6rem;
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.reviews-info h2::after {
+  content: "";
+  display: block;
+  height: 0.25rem;
+  width: 4rem;
+  margin: 1rem auto;
+  background-color: white;
+}
+
+.reviews-info h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 2.5rem;
+}
+
+.reviews-info h3 + p {
+  margin: 5rem 0;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.reviews-info span {
+  display: block;
+  line-height: 1.6;
+}
+
+.reviews-info p:last-child {
+  font-size: 1.2rem;
+}
+
+.menu {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.menu h2 {
+  color: #f19201;
+  margin-bottom: 1.75rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.info {
+  font-style: italic;
+}
+
+.info span {
+  display: block;
+  line-height: 1.6;
+}
+
+.menu-items {
+  width: 75%;
+  margin: 2.5rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4rem;
+  row-gap: 2.5rem;
+}
+
+.option {
+  background-color: white;
+  display: flex;
+  padding: 1.2rem;
+}
+
+.option img {
+  width: 50%;
+}
+
+.option div:last-child {
+  margin-left: 1.5rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.option h2 {
+  margin-top: 1rem;
+  color: black;
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+.option p {
+  font-size: 1.2rem;
+}
+
+.option span {
+  display: block;
+  font-style: italic;
+}
+
+.option p + p {
+  color: #f19201;
+  font-weight: 600;
+}
+
+.option button {
+  width: 6rem;
+  padding: 0.5rem 0.75rem;
+  margin-top: 1.2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: black;
+  background-color: rgb(216, 213, 213);
+  border: none;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+footer div:first-child {
+  height: 25rem;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url("img/image8.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+footer p {
+  margin: 2.75rem 0;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+footer button {
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
+
+footer div:last-child {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
